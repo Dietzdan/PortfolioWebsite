@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Dietzmans Online Portfolio</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Font/css/all.min.css">
+<style>
+a{text-decoration: none;}
+#main{margin-left:10%;}
+@media only screen and (max-width: 600px) {#main{margin-left: 0;}} 
+</style>
+</head>
+
+<body class="w3-blue w3-display-container">
+    <!--Nav Side Bar Here-->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-blue w3-center" style="width:10%;"> 
+        <img class="w3-circle w3-bar-item"src="media/Profile Picture.jpeg" style="width:100%; opacity:75%;">
+        <a href="#main" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+        </a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-folder w3-xxlarge"></i>
+        <p>PROJECTS</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+        </a>
+        <div class="w3-center w3-display-bottomleft w3-panel w3-medium">
+            <a href="https://www.linkedin.com/in/daniel-dietzman-b3a64a163/" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;" >
+            <i class="fab fa-linkedin" ></i>
+            </a>
+            <a href="https://www.instagram.com/thedietzdan/" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-instagram" ></i>
+            </a>
+            <a href="#" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-facebook" ></i>
+            </a>
+            <a href="https://twitter.com/TheDietZDan" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-twitter" ></i>
+            </a>
+            <a href="https://github.com/Dietzdan?tab=repositories" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Horizontal Nav for phones-->
+    <div class="w3-top w3-hide-large w3-hide-medium w3-center">
+        <div class="w3-bar w3-blue w3-opacity w3-center w3-small">
+            <a href="#main" class="w3-bar-item w3-button">HOME</a>
+            <a href="projects.html#main" class="w3-bar-item w3-button">PROJECTS</a>
+            <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+            <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Main Content Here -->
+    <!-- 10% for side bar space -->
+    <div id="main">
+<header class="w3-container  w3-center">
+    <h1 class="w3-jumbo"> Daniel Dietzman </h1>
+    <p> Games Designer and Programmer </p>
+</header>
+<section class="w3-container w3-center">
+    <img class="w3-circle" src="media/Profile Picture.jpeg" style="height: 20%; width: 20%;">
+</section>
+<!--Recent Section-->
+<section class="w3-container ">
+<h2 class="w3-leftbar w3-border-white w3-padding">Recent </h2>
+
+<section class="w3-container w3-third w3-section">
+<a href="projects.html#web">
+<div class="w3-card-4 w3-round-xlarge w3-white">
+  <img src="media/website.png" alt="This websites Homepage" style="max-width:100%; max-height: 100%;">
+  <div class="w3-container">
+  <h4>Portfolio Website</h4>
+  <p> Using HTML, CSS and the W3.CCS framework I created this site to be used as a showcase of my completed projects</p>
+</div>
+</a>
+</div>
+
+</section>
+<section class="w3-container w3-third w3-section">
+<div class="w3-card-4 w3-white w3-round-xlarge">
+    <video controls muted style="max-height:100%; max-width:100%;">
+        <source src="media/GameFinalPC.mp4" type="video/mp4">
+    </video>
+    <!-- Link below the video seems to work better -->
+    <a href="projects.html#shootout">
+    <div class="w3-container">
+    <h4>PrettyMuch vs CNCO Shootout - Game Design</h4>
+    <p  >Small browser based game I designed with the team at Project XIV to promote the two bands' collaboration single. </p>
+    </div>
+</div>
+</a>
+</section>
+
+<section class="w3-container w3-third w3-section">
+<div class="w3-card-4 w3-white w3-round-xlarge">
+    <video controls muted style="max-height: 100%; max-width: 100%;">
+    <source src="media/PCG Video.mp4" type="video/mp4">
+    </video>
+    <a href="projects.html#pcg">
+    <div class="w3-container">
+    <h4>PCG Galaxy Scene</h4>
+    <p>A PCG Galaxy scene created using unity and 3D models I created to depict a scene of scavengers after a battle in an asteroid field</p>
+    </div>
+</div>
+</a>
+</section>
+</section>
+
+<!-- About Section -->
+<section id="about" class="w3-container w3-left">
+    <h2 class=" w3-leftbar w3-border-white w3-padding" >About </h2>
+    <p>I am Games Computing graduate and i made this site as a way to display my acheivements and projects. Most of these projects are games 
+        some using the game engine unity and C# others using SDL, OpenGL and C++.
+        Games are a passion of mine as you can see as they are the majority of my projects designing or creating doesnt matter i always enjoy it.
+        However recently I been looking to expand my coding langauge and have decided to start with HTML and CSS as you can see from this site. 
+        This is just the start I will continue to improve and develop new languages and you can keep up to date with my different project here.</p>
+</section>
+
+<!-- Contact Me  -->
+<section id="contact" class="w3-container w3-left">
+    <h2 class=" w3-leftbar w3-border-white w3-padding" >Contact Me </h2>
+    <p>You can get in contact with me by sending me an email at <b>Danny.Dietzman@ntlworld.com</b></p>
+    <p>Or from one of my social medias below</p>
+    <!--Not sure what social i want to add -->
+    <div class="w3-bar w3-padding">
+        <a href="https://www.linkedin.com/in/daniel-dietzman-b3a64a163/" target="_blank" class="w3-bar-item w3-button">
+        <i class="fab fa-linkedin w3-xlarge" ></i>
+        <p>Linkedin</p>
+        </a>
+        <a href="https://www.instagram.com/thedietzdan/" target="_blank" class="w3-bar-item w3-button">
+        <i class="fab fa-instagram w3-xlarge"></i>
+        <p>Instagram</p>
+        </a>
+        <a href="#" target="_blank" class="w3-bar-item w3-button">
+        <i class="fab fa-facebook w3-xlarge"></i>
+        <p>Facebook</p>
+        </a>
+        <a href="https://twitter.com/TheDietZDan" target="_blank" class="w3-bar-item w3-button">
+        <i class="fab fa-twitter w3-xlarge"></i>
+        <p>Twitter</p>
+        </a>
+    </div> 
+</section>
+</div>
+</body>
+
+</html>

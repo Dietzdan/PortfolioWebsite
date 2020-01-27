@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Dietzmans Online Portfolio</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Font/css/all.min.css">
+<style>
+a{text-decoration: none;}
+#main{margin-left:10%;}
+@media only screen and (max-width: 600px) {#main{margin-left: 0;}} 
+</style>
+</head>
+<body class="w3-blue w3-display-container">
+    <!--Nav Side Bar Here-->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-blue w3-center" style="width:10%;"> 
+        <img class="w3-circle w3-bar-item"src="media/Profile Picture.jpeg" style="width:100%; opacity:75%;">
+        <a href="index.Html#main" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+        </a>
+        <a href="#main" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-folder w3-xxlarge"></i>
+        <p>PROJECTS</p>
+        </a>
+        <a href="index.Html#about" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+        </a>
+        <a href="index.Html#contact" class="w3-bar-item w3-button w3-hover-white">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+        </a>
+        <div class="w3-center w3-display-bottomleft w3-panel w3-medium">
+            <a href="https://www.linkedin.com/in/daniel-dietzman-b3a64a163/" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;" >
+            <i class="fab fa-linkedin" ></i>
+            </a>
+            <a href="https://www.instagram.com/thedietzdan/" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-instagram" ></i>
+            </a>
+            <a href="#" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-facebook" ></i>
+            </a>
+            <a href="https://twitter.com/TheDietZDan" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-twitter" ></i>
+            </a>
+            <a href="https://github.com/Dietzdan?tab=repositories" target="_blank" class="w3-opacity w3-hover-opacity-off" style="text-decoration: none;">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Horizontal Nav for phones-->
+    <div class="w3-top w3-hide-large w3-hide-medium w3-center">
+        <div class="w3-bar w3-blue w3-opacity w3-center w3-small">
+            <a href="index.Html#main" class="w3-bar-item w3-button">HOME</a>
+            <a href="#main" class="w3-bar-item w3-button">PROJECTS</a>
+            <a href="index.Html#about" class="w3-bar-item w3-button">ABOUT</a>
+            <a href="index.Html#contact" class="w3-bar-item w3-button">CONTACT</a>
+        </div>
+    </div>
+
+<!-- main content here -->
+<div id="main">
+<header class="w3-container w3-center">
+<h1 class="w3-jumbo" >Projects</h1>
+</header>
+
+<section id="web" class="w3-container w3-card-4 w3-white w3-round-xlarge" style="margin-top:5%; padding-left:0%; padding-right:0%;">
+<img src="media/website.png" alt="This Websites home page" class="w3-left w3-third">
+<div class="w3-container w3-twothird">
+<h4 class="w3-center">Portfolio Website</h4>
+<p> This site was created as a portfolio website to show the projects I have completed. It was created using a mixture of HTML,
+     Inline CSS and ,the W3 schools framework, W3.CSS. The W3.CSS framework and Inline CSS is used to style the website into
+     the way I want it to look. For example the side navigation bar was made using the w3-bar-block and w3-sidebar classes.
+     Not only this but by using the framework this website is much more responsive meaning it will change layout depending on
+     the size of the screen for example if you resize the window or are viewing this on mobile the side bar will be hidden and instead
+     and faded top navigation bar is present. Lastly the icons are from Font Awesome allowing for the uses of instanly recognisable icons   
+</p>
+</div>
+</section>
+
+<section id="shootout" class="w3-container w3-card-4 w3-white w3-round-xlarge" style="margin-top:4%; padding-left:0%; padding-right:0%;">
+    <video class="w3-right w3-third" controls muted>
+        <source src="media/GameFinalPC.mp4" type="video/mp4">
+    </video>
+    <div class="w3-container w3-twothird">
+    <h4 class="w3-center">PrettyMuch vs CNCO Shootout - Game Design</h4>
+    <p>I was tasked with designing a simple penalty shootout game for two band's collaboration single. The client wanted the game
+        to be browser based so it could be easily played on both on moblie and computer. This would also allow them to embed it into 
+        their own website. My role in this project was to have a complete game on paper so it could be handed to the developers to make.
+        This included the gameplay, menus , user interface , sounds , how scoring would work and other mechanics and game elements.
+        You can play the game for yourself and see the competed product at 
+        <a href="https://penaltyshootout.prettymuch.com/pcball.html" style="text-decoration: underline; color: blue;" target="_blank" > https://penaltyshootout.prettymuch.com/pcball.html </a>.
+        <br>(Note:You will need to disable any adblock for the game to load)
+    </p>
+    </div>
+</section>
+
+<section id="pcg" class="w3-container w3-card-4 w3-white w3-round-xlarge" style="margin-top:4%; padding-left:0%; padding-right:0%;">
+    <video class="w3-left w3-third" controls muted> 
+        <source src="media/PCG Video.mp4" type="video/mp4">
+    </video>
+    <div class="w3-container w3-twothird">
+    <h4 class="w3-center">PCG Galaxy Scene</h2>
+    <p>The task was to create a procedurally generated scene in space.
+        The idea for my scene was that it would be scavenger ships that are looting a recent battle that took place in a asteroid field.
+        How the scene works is first the asteroids and debris fields would spawn in randomly genrated spiral pattern similar to a real galaxy. 
+        Next the "Freighter" ships will spawn in they will travel to a random debris field at which point they will rise up and release the smaller "Collecter" ships 
+        which go to a random piece of debris in field and then return to the big ships. The small details were my favorite part of this project such as the bob of the asteroids or the spinning debris. 
+        There is also a small chance of the debris to explode when it comes in contact to a "Collecter" ship. Each time the scene is played something will change so the video is just one instance of the Galaxy Scene.
+ 
+    </p>
+    </div>
+</section>
+
+<section class="w3-container w3-card-4 w3-white w3-round-xlarge" style="margin-top:4%;  margin-bottom:2%; padding-left:0%; padding-right:0%;">
+    <img src="media/SnakeWear.png" alt="This Websites home page" class="w3-right w3-third">
+    <div class="w3-container w3-twothird">
+    <h4 class="w3-center">SnakeWear</h4>
+    <p> The aim of the dissertation was to find a appropriate control scheme for the game snake if it was played on a smartwatch. 
+        This project needed a few new skills. For example to put the game from Unity to the watch i first had to export it 
+        then package the game using android studio this allowed me to add mobile and watch specfic things such as the turning of the sleep function 
+        so the screen would never dim during play. The different control schemes were another learning experince the only controls
+        I had made was keyboard or button oriented but now I was making a version with swipe and tilt version. In the end two results 
+        came from my study the regualar touch controls were found to be the easiest however the swipe controls made the game more "fun" and enjoyable to the partcipants.   
+    </p>
+    </div>
+</section>
+
+</body>
+
+</html>
